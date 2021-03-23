@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Windbnb</h1>
+<h1 align="center">Country Quiz</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://todo-by-sachin.netlify.app">
+    <a href="https://country-quiz-by-sachin.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
+    <a href="https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8">
       Challenge
     </a>
   </h3>
@@ -31,13 +31,13 @@
 
 ## Overview
 
-![screenshot](https://todo-by-sachin.netlify.app/screenshot.png)
+![screenshot](https://country-quiz-by-sachin.netlify.app/screenshot.png)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories.
 
 ## Acknowledgements
 
