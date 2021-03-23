@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { useEffect, useState } from "react";
+import Footer from "./Footer";
+// import { data } from "./questions";
+import Quiz from "./Quiz";
+const App = () => {
+  const [data, setData] = useState([]);
+  async function fetchData() {
+    const res = await fetch(
+      "https://restcountries.eu/rest/v2/all?fields=name;capital;flag;"
+    );
+    const data = await res.json();
+    setData(data);
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Quiz questions={data} />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
